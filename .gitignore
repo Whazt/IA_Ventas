@@ -1,0 +1,40 @@
+# Ignorar entornos virtuales
+venv/
+env/
+ENV/
+
+# Ignorar archivos de configuración de IDEs
+.vscode/
+.idea/
+
+# Ignorar archivos de Python compilados
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar archivos de logs
+*.log
+
+# Ignorar bases de datos temporales
+*.sqlite3
+
+# Ignorar archivos de dependencias de Jupyter Notebook
+.ipynb_checkpoints/
+
+# Ignorar archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar configuraciones de pytest y coverage
+.cache/
+.tox/
+.coverage
+*.cover
+htmlcov/
+
+# Ignorar archivos empaquetados
+*.egg
+*.egg-info/
+dist/
+build/
